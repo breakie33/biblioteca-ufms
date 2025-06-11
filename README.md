@@ -24,8 +24,6 @@ biblioteca-ufms/
 │   ├── 02_inserts.sql      # Dados iniciais
 │   ├── 03_queries.sql      # Consultas CRUD
 │   └── 04_procedures.sql   # Procedimentos armazenados
-├── docs/
-│   └── diagrama_er.png     # Diagrama Entidade-Relacionamento
 ├── .gitignore              
 └── README.md               # Este arquivo
 ```
