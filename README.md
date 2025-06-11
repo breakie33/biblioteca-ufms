@@ -34,21 +34,25 @@ biblioteca-ufms/
 
 1. Clone este repositório:
 
-  git clone https://github.com/breakie33/biblioteca-ufms.git
+  `git clone https://github.com/breakie33/biblioteca-ufms.git
   cd biblioteca-ufms
+  `
 
 2. Execute os scripts em ordem:
    
-  psql -U postgres -f scripts/01_schema.sql
+  `psql -U postgres -f scripts/01_schema.sql
   psql -U postgres -f scripts/02_inserts.sql
+  `
 
 3. Para testar as consultas:
    
-   psql -U postgres -f scripts/03_queries.sql
+   `psql -U postgres -f scripts/03_queries.sql
+   `
 
-4. (Opcional) Carregar procedures:
+5. (Opcional) Carregar procedures:
    
-   psql -U postgres -f scripts/04_procedures.sql
+   `psql -U postgres -f scripts/04_procedures.sql
+   `
 
 ## Autor
 
