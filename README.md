@@ -11,9 +11,9 @@ Este projeto contém o modelo completo de banco de dados relacional para gestão
 
 ## Tecnologias
 
--PostgreSQL 13+ (banco de dados relacional)
--Git 2.25+ (controle de versão)
--GitHub (repositório remoto)
+#PostgreSQL 13+ (banco de dados relacional)
+#Git 2.25+ (controle de versão)
+#GitHub (repositório remoto)
 
 ## Estrutura do Projeto
 
