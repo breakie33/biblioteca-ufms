@@ -31,29 +31,22 @@ biblioteca-ufms/
 ```
 
 ## Como usar
+```bash
+#Clone este repositório:
+git clone https://github.com/breakie33/biblioteca-ufms.git
+cd biblioteca-ufms
+  
+#Execute os scripts em ordem:
+psql -U postgres -f scripts/01_schema.sql
+psql -U postgres -f scripts/02_inserts.sql
 
-1. Clone este repositório:
-
-  `git clone https://github.com/breakie33/biblioteca-ufms.git
-  cd biblioteca-ufms
-  `
-
-2. Execute os scripts em ordem:
+#Para testar as consultas:
+psql -U postgres -f scripts/03_queries.sql
    
-  `psql -U postgres -f scripts/01_schema.sql
-  psql -U postgres -f scripts/02_inserts.sql
-  `
-
-3. Para testar as consultas:
+#(Opcional) Carregar procedures:
+psql -U postgres -f scripts/04_procedures.sql
    
-   `psql -U postgres -f scripts/03_queries.sql
-   `
-
-5. (Opcional) Carregar procedures:
-   
-   `psql -U postgres -f scripts/04_procedures.sql
-   `
-
+```
 ## Autor
 
 Este projeto foi desenvolvido como atividade prática de modelagem e versionamento de banco de dados.
