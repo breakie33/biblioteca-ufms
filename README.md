@@ -35,14 +35,14 @@ git clone https://github.com/breakie33/biblioteca-ufms.git
 cd biblioteca-ufms
   
 #Execute os scripts em ordem:
-psql -U postgres -f scripts/01_schema.sql
-psql -U postgres -f scripts/02_inserts.sql
+psql -U postgres -f scripts/schema.sql
+psql -U postgres -f scripts/inserts.sql
 
 #Para testar as consultas:
-psql -U postgres -f scripts/03_queries.sql
+psql -U postgres -f scripts/queries.sql
    
 #(Opcional) Carregar procedures:
-psql -U postgres -f scripts/04_procedures.sql
+psql -U postgres -f scripts/procedures.sql
    
 ```
 ## Autor
