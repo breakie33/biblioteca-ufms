@@ -20,10 +20,10 @@ Este projeto contém o modelo completo de banco de dados relacional para gestão
 ```bash
 biblioteca-ufms/
 ├── scripts/
-│   ├── 01_schema.sql       # Schema completo do banco
-│   ├── 02_inserts.sql      # Dados iniciais
-│   ├── 03_queries.sql      # Consultas CRUD
-│   └── 04_procedures.sql   # Procedimentos armazenados
+│   ├── schema.sql       # Schema completo do banco
+│   ├── inserts.sql      # Dados iniciais
+│   ├── queries.sql      # Consultas CRUD
+│   └── procedures.sql   # Procedimentos armazenados
 ├── .gitignore              
 └── README.md               # Este arquivo
 ```
