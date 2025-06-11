@@ -1,0 +1,16 @@
+# Arquivos do PostgreSQL
+*.pid
+*.lock
+*.log
+
+# Arquivos de configuração local
+*.env
+*.local
+
+# Backup de banco de dados
+*.backup
+*.dump
+
+# Arquivos temporários
+*.tmp
+*.temp
